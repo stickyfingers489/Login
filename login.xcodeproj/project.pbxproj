@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0046B928034F05001498B8 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0046B828034F04001498B8 /* Tab.swift */; };
+		AD0046BB28038DB5001498B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0046BA28038DB5001498B8 /* HomeView.swift */; };
 		AD3E3A8F27FB751300A67B03 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3E3A8E27FB751300A67B03 /* PreferenceKey.swift */; };
 		AD656B8A27F9CD53006265F8 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD656B8927F9CD52006265F8 /* AnimatableFontModifier.swift */; };
 		AD656B9227F9EAE1006265F8 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD656B9127F9EAE1006265F8 /* Animations.swift */; };
@@ -33,6 +35,9 @@
 		AD7B479427F1B95D009B0974 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7B479327F1B95D009B0974 /* loginUITests.swift */; };
 		AD7B479627F1B95D009B0974 /* loginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7B479527F1B95D009B0974 /* loginUITestsLaunchTests.swift */; };
 		ADB5A20F27F620C600AA742A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5A20E27F620C500AA742A /* Styles.swift */; };
+		ADC8983828052F5E00CD8246 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8983728052F5E00CD8246 /* ModalView.swift */; };
+		ADD86FF4280066E3003383D5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD86FF3280066E3003383D5 /* AccountView.swift */; };
+		ADD86FF6280076CA003383D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD86FF5280076CA003383D5 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0046B828034F04001498B8 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		AD0046BA28038DB5001498B8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AD3E3A8E27FB751300A67B03 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		AD656B8927F9CD52006265F8 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 		AD656B9127F9EAE1006265F8 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
@@ -83,6 +90,9 @@
 		AD7B479327F1B95D009B0974 /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		AD7B479527F1B95D009B0974 /* loginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ADB5A20E27F620C500AA742A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		ADC8983728052F5E00CD8246 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		ADD86FF3280066E3003383D5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		ADD86FF5280076CA003383D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				AD764FCB27F73F45002911CE /* TabBar.swift */,
+				AD0046B828034F04001498B8 /* Tab.swift */,
 				AD764FDF27F97F9D002911CE /* NavigationBar.swift */,
 				AD656B9727FA1175006265F8 /* Sidebar.swift */,
 			);
@@ -162,7 +173,11 @@
 			isa = PBXGroup;
 			children = (
 				AD656BDF27FA48D2006265F8 /* SignupView.swift */,
+				ADD86FF3280066E3003383D5 /* AccountView.swift */,
+				ADD86FF5280076CA003383D5 /* ContentView.swift */,
+				AD0046BA28038DB5001498B8 /* HomeView.swift */,
 				AD656BE127FA48F3006265F8 /* SigninView.swift */,
+				ADC8983728052F5E00CD8246 /* ModalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -373,16 +388,21 @@
 			files = (
 				AD764FC827F72E26002911CE /* BlobView.swift in Sources */,
 				AD656B9427F9F847006265F8 /* AngularButtonStyle.swift in Sources */,
+				ADD86FF6280076CA003383D5 /* ContentView.swift in Sources */,
 				AD656BC727FA1E8A006265F8 /* CloseButton.swift in Sources */,
 				AD3E3A8F27FB751300A67B03 /* PreferenceKey.swift in Sources */,
 				AD656BC527FA1E6F006265F8 /* AngularButton.swift in Sources */,
 				ADB5A20F27F620C600AA742A /* Styles.swift in Sources */,
+				AD0046B928034F05001498B8 /* Tab.swift in Sources */,
 				AD656B9827FA1175006265F8 /* Sidebar.swift in Sources */,
 				AD656B9627FA0478006265F8 /* InputStyle.swift in Sources */,
+				ADD86FF4280066E3003383D5 /* AccountView.swift in Sources */,
 				AD656BAE27FA1820006265F8 /* ColorExtension.swift in Sources */,
 				AD656BB027FA1881006265F8 /* CustomFieldModifier.swift in Sources */,
 				AD7B477927F1B955009B0974 /* loginApp.swift in Sources */,
 				AD764FCA27F72E6B002911CE /* HexagonView.swift in Sources */,
+				ADC8983828052F5E00CD8246 /* ModalView.swift in Sources */,
+				AD0046BB28038DB5001498B8 /* HomeView.swift in Sources */,
 				AD656BE227FA48F3006265F8 /* SigninView.swift in Sources */,
 				AD764FDB27F97A6A002911CE /* FeaturedItem.swift in Sources */,
 				AD656BB227FA190C006265F8 /* Modifiers.swift in Sources */,
